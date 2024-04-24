@@ -19,7 +19,6 @@ unsigned long previousMillis = 0;
 #define I INPUT
 #define H HIGH
 #define L LOW
-
 #define DHTTYPE DHT11
 
 #include <Servo.h>
@@ -75,7 +74,6 @@ class ServoMotor {
 };
 
 class WaterPump {
-
   public: 
   void pumpWaterSetUp(){
     pinMode(PUMP_PIN,O);
@@ -151,14 +149,9 @@ class HumidityTemperature {
 
 };
 
-
-
-
-
 ServoMotor servo;
 WaterPump pump;
 HumidityTemperature HT;
-
 
 void setup() {
   Serial.begin(9600);
