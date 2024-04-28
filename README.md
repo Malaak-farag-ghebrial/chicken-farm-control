@@ -9,8 +9,8 @@ The Humidity and Temperature will need a Fan controlled with DHT11 ( Humidity, T
 
 
 #### Two Files
-There is two files of the same code, each were Writen in different way
-The clean was writen with semi SOLID principles ( servo class, Water Pump class, Humidity class ) 
-The Unclean was writen with spagheti code for no reason ( I don't kno why )
+There is two files of the same code, each were Writen in different way.
+##### The clean was writen with semi SOLID principles ( servo class, Water Pump class, Humidity class ). 
+##### The Unclean was writen with spagheti code for no reason ( I don't kno why ).
 
 ## You can add your Thoughts and Additions for more Development.
