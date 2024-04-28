@@ -5,7 +5,7 @@
 #define WATER_PIN 4 
 #define WATER_ANALOG_PIN A5
 
-double servoStartAngle = 50;
+//double servoStartAngle = 0;
 double openFoodValveDelayInHours = 1;
 double foodValveTimeInSecond = 10;
 double pumpingTimeInSecond = 5;
@@ -31,7 +31,7 @@ class ServoMotor {
   Servo servo;  
   void servoSetUp(){
       servo.attach(SERVO_PIN);  
-      servo.write(servoStartAngle);   
+   //   servo.write(servoStartAngle);   
   }
   void openValve(){
     Serial.println("The Servo Open valve!");
